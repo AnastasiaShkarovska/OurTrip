@@ -1,0 +1,123 @@
+.ramka-for-every-one{
+     display: grid;
+     grid-template-columns: repeat(1fr, 6);
+     gap: 40px;
+}
+.first-hover:hover{
+    transform: scale(1.025);
+}
+.buttons{
+    width: 450px;
+    height: 30px;
+    margin-left: 15px;
+}
+.one-choice{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 1350px;
+    min-height: 120px;
+    max-height: 540px;
+    position: relative;
+    margin-left: 20px;
+    background-color:rgb(182, 204, 254);
+}
+.transport-text{
+font-size: 30px;
+margin-top: 5px;
+margin-left: 6px;
+position: absolute;
+color: rgb(70, 18, 32);
+}
+.transport-photo{
+    width: 60px;
+    height: 45px;
+    margin-top: 45px;
+    position: absolute;
+}
+.house-photo{
+    width: 60px;
+    height: 60px;
+    margin-top: 30px;
+    position: absolute; 
+}
+.destination-text{
+    margin-top: 57px;
+    margin-left: 60px;
+    text-transform: uppercase;
+    font-size: 25px;
+    position: absolute;
+    color: rgb(165, 28, 48);
+}
+.clock-photo{
+    width: 60px;
+    height: 60px;
+    margin-top: -6px;
+    margin-left: 130px;
+     position: absolute;
+}
+.time-text{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 10px;
+    font-size: 25px;
+    text-decoration: underline;
+    text-decoration-color: rgb(205, 180, 219);
+    font-style: italic;
+    color: rgb(3, 4, 94);
+}
+.posilanya{
+    position: absolute;
+    font-size: 40px;
+    margin-left: 500px;
+    top: 30px;
+}
+#first{
+      border: 2px solid black;
+      height: 300px;
+}
+.see-more-details{
+margin-top: 93px;
+margin-left: 5px;
+ position: relative;
+}
+.posilanya{
+    color: rgb(60, 9, 108);
+}
+.more-details-bus{
+    font-size: 20px;
+    text-decoration-style: dotted;
+}
+.bilety{
+    width: 350px;
+    height: 480px;
+    margin-top: -315px;
+    margin-left: 960px;
+}
+.bilety-text{
+ margin-left: 1140px;
+    font-size: 30px;
+    margin-top: -360px;
+    position: absolute;
+}
+.nazva{
+    text-transform: uppercase;
+     font-size: 43px; 
+     margin-left: 200px;
+     top: 20px;
+}
+.info-1{
+    position: absolute;
+    margin-left: 164px;
+    margin-top: -57px;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(8, 63, 19);
+}
+.info-2{
+    position: absolute;
+    margin-left: 394px;
+    margin-top: -57px;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(8, 63, 19);
+}
