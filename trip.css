@@ -1,10 +1,12 @@
+.one-choice:has(details[open]) {
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+}
 .ramka-for-every-one{
      display: grid;
      grid-template-columns: repeat(1fr, 6);
      gap: 40px;
-}
-.first-hover:hover{
-    transform: scale(1.025);
 }
 .buttons{
     width: 450px;
@@ -107,17 +109,13 @@ margin-left: 5px;
 }
 .info-1{
     position: absolute;
-    margin-left: 164px;
-    margin-top: -57px;
-    font-size: 15px;
+    font-size: 19px;
     text-decoration: none;
     color: rgb(8, 63, 19);
 }
 .info-2{
     position: absolute;
-    margin-left: 394px;
-    margin-top: -57px;
-    font-size: 15px;
+    font-size: 19px;
     text-decoration: none;
     color: rgb(8, 63, 19);
 }
