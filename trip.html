@@ -2,20 +2,7 @@
   <html> 
     <head>  <link rel="stylesheet" href="trip.css"> <script src="trip.js"> </script>  </head>
   <body style="color: rgb(0, 0, 0); background-color: rgb(204, 219, 253);"> 
-     <h2>  Наша подорож <br>  Переїзди та майбутні плани </h2>
-        <button class="buttons" onclick="show('plany')"> Всі плани  </button>
-        <button class="buttons" onclick="show('trips')"> Переїзди</button>
-        <button class="buttons"> Житло</button>
-
-        <div id="plany" >
-            <h3 class="informations">Усі наші плани</h3>
-            <p class="all"> *Тут усі переїзи перельоти і житло</p>
-        </div>
-
-          <div id="trips" style="display:none" >
-            <p>yjhkgivршщгищшотггишjghbkhvyvhjrjoep;lgj;kbhouiyfutgchvj,bknl;iuoyvhj</p>
-        </div>
-
+     <h1 style="text-align: center;">  Наша подорож  </h1>
 <!-- переїзд в кишинів -->
         <div class="ramka-for-every-one"> 
             <div class="one-choice"> 
@@ -25,6 +12,9 @@
                     <img src="clock.png" class="clock-photo"> 
                 <p class="time-text"> 17:05 - 03:20 </p>
                  <a href="https://d1tvje9wuck7lr.cloudfront.net/s0iq5zdychdm08hnmw6ug05x71vt9a9z14x84emqh8usqg1c3w/Boarding-Pass-Kyiv-Chisinau-Airport-3354447471.pdf" class="posilanya"> Пoсилання на переїзд</a>
+<button class="buttons-click" onclick="markDone(this)"> 
+    <img src="галочка2.png" class="click-photo">
+</button>
         <!--деталі-->
     <div class="more-details-bus"> 
       <details class="see-more-details"> 
@@ -50,6 +40,9 @@
                     <img src="clock.png" class="clock-photo"> 
                 <p class="time-text"> 12:55 - 14:15 </p>
                 <a href="https://www.wizzair.com/uk-ua/itinerary/CNYPHG/SHKAROVSKA?utm_source=wizz&utm_medium=web&utm_campaign=shared_trip" class="posilanya"> Пoсилання на переліт</a>
+                <button class="buttons-click" onclick="markDone(this)"> 
+    <img src="галочка2.png" class="click-photo">
+</button>
         <!--деталі-->
  <div class="more-details-bus"> 
       <details class="see-more-details"> 
@@ -73,6 +66,9 @@
                     <img src="clock.png" class="clock-photo"> 
                 <p class="time-text"> 14 - 17 липня </p>
        <a href="Book1.pdf" class="posilanya"> Пoсилання на бронювання</a>
+<button class="buttons-click" onclick="markDone(this)"> 
+    <img src="галочка2.png" class="click-photo">
+</button>
         <!-- тут деталі-->
  <div class="more-details-bus"> 
       <details class="see-more-details"> 
@@ -95,6 +91,9 @@
                     <img src="clock.png" class="clock-photo"> 
                 <p class="time-text"> 10:10 - 11:40 </p>
                 <a href="https://d1tvje9wuck7lr.cloudfront.net/b4301zb4ttuhnu99djifl17yrdeloaa3qorivkq18uevdj2anu/Boarding-Pass-Rimini-Bologna-3354474752.pdf" class="posilanya"> Пoсилання на переїзд</a>
+<button class="buttons-click" onclick="markDone(this)"> 
+    <img src="галочка2.png" class="click-photo">
+</button>
         <!-- тут деталі-->
  <div class="more-details-bus"> 
       <details class="see-more-details"> 
@@ -120,6 +119,9 @@
                     <img src="clock.png" class="clock-photo"> 
                 <p class="time-text"> 16:40 - 18:20 </p>
                 <a href="Флоренція.pdf" class="posilanya"> Пoсилання на переїзд</a>
+<button class="buttons-click" onclick="markDone(this)"> 
+    <img src="галочка2.png" class="click-photo">
+</button>
              <!-- тут деталі-->
  <div class="more-details-bus"> 
       <details class="see-more-details"> 
@@ -144,6 +146,9 @@
                     <img src="clock.png" class="clock-photo"> 
                 <p class="time-text"> 17 - 18 липня </p>
                 <a href="Book2.pdf" class="posilanya"> Пoсилання на бронювання</a>
+<button class="buttons-click" onclick="markDone(this)"> 
+    <img src="галочка2.png" class="click-photo">
+</button>
            <!-- тут деталі-->
  <div class="more-details-bus"> 
       <details class="see-more-details"> 
@@ -167,6 +172,9 @@
                     <img src="clock.png" class="clock-photo"> 
                 <p class="time-text"> 18:20 - 21:40 </p>
                 <a href="Веронаа.pdf" class="posilanya"> Пoсилання на переїзд</a>
+<button class="buttons-click" onclick="markDone(this)"> 
+    <img src="галочка2.png" class="click-photo">
+</button>
              <!-- тут деталі-->
  <div class="more-details-bus"> 
       <details class="see-more-details"> 
@@ -191,6 +199,9 @@
                     <img src="clock.png" class="clock-photo"> 
                 <p class="time-text"> 18 - 19 липня </p>
                 <a href="Verona.pdf" class="posilanya"> Пoсилання на бронювання</a>
+<button class="buttons-click" onclick="markDone(this)"> 
+    <img src="галочка2.png" class="click-photo">
+</button>
              <!-- тут деталі-->
  <div class="more-details-bus"> 
       <details class="see-more-details"> 
@@ -214,6 +225,9 @@
                     <img src="clock.png" class="clock-photo"> 
                 <p class="time-text"> 12:22 - 13:50 </p>
                 <a href="Венеція.pdf" class="posilanya"> Пoсилання на переїзд</a>
+<button class="buttons-click" onclick="markDone(this)"> 
+    <img src="галочка2.png" class="click-photo">
+</button>
              <!-- тут деталі-->
  <div class="more-details-bus"> 
       <details class="see-more-details"> 
@@ -239,6 +253,9 @@
                     <img src="clock.png" class="clock-photo"> 
                 <p class="time-text"> 20:20 - 23:45 </p>
                 <a href="Мілан.pdf" class="posilanya"> Пoсилання на переїзд</a>
+<button class="buttons-click" onclick="markDone(this)"> 
+    <img src="галочка2.png" class="click-photo">
+</button>
              <!-- тут деталі-->
  <div class="more-details-bus"> 
       <details class="see-more-details"> 
@@ -261,8 +278,11 @@
                     <img src="house.png" class="house-photo"> 
                 <p class="destination-text"> Мілан </p>
                     <img src="clock.png" class="clock-photo"> 
-                <p class="time-text"> 1 - 1 липня </p>
+                <p class="time-text"> 19 - 20 липня </p>
                 <a href="Milan.pdf" class="posilanya"> Пoсилання на бронювання</a>
+<button class="buttons-click" onclick="markDone(this)"> 
+    <img src="галочка2.png" class="click-photo">
+</button>
              <!-- тут деталі-->
  <div class="more-details-bus"> 
       <details class="see-more-details"> 
@@ -283,8 +303,11 @@
                     <img src="plain.png" class="transport-photo" style="width: 75px; height: 60px; margin-left: -10px;"> 
                 <p class="destination-text"> : Мілан - Краків </p>
                     <img src="clock.png" class="clock-photo"> 
-                <p class="time-text"> 1: - 1 </p>
+                <p class="time-text"> 9:20 - 11:05 </p>
                 <a href="https://www.ryanair.com/ua/uk/trip/manage/e7c2550d-a0eb-4465-8447-480375e30528?tpAdults=2&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2026-07-21&tpEndDate=&tpDiscount=0&tpPromoCode=&tpOriginIata=BGY&tpDestinationIata=KRK" class="posilanya"> Пoсилання на переліт</a>
+<button class="buttons-click" onclick="markDone(this)"> 
+    <img src="галочка2.png" class="click-photo">
+</button>
         <!--деталі-->
  <div class="more-details-bus"> 
       <details class="see-more-details"> 
@@ -306,8 +329,11 @@
                     <img src="house.png" class="house-photo"> 
                 <p class="destination-text"> Краків </p>
                     <img src="clock.png" class="clock-photo"> 
-                <p class="time-text"> 1 - 1 липня </p>
+                <p class="time-text"> 21 - 22 липня </p>
                 <a href="Краків.pdf" class="posilanya"> Пoсилання на бронювання</a>
+<button class="buttons-click" onclick="markDone(this)"> 
+    <img src="галочка2.png" class="click-photo">
+</button>
              <!-- тут деталі-->
  <div class="more-details-bus"> 
       <details class="see-more-details"> 
@@ -329,8 +355,11 @@
                     <img src="bus.png" class="transport-photo"> 
                 <p class="destination-text"> : Краків - Перемшль</p>
                     <img src="clock.png" class="clock-photo"> 
-                <p class="time-text"> 2 - 2</p>
+                <p class="time-text"> 22:30- 9:02</p>
                 <a href="Перемшль.pdf" class="posilanya"> Пoсилання на переїзд</a>
+<button class="buttons-click" onclick="markDone(this)"> 
+    <img src="галочка2.png" class="click-photo">
+</button>
              <!-- тут деталі-->
  <div class="more-details-bus"> 
       <details class="see-more-details"> 
@@ -356,6 +385,9 @@
                     <img src="clock.png" class="clock-photo"> 
                 <p class="time-text"> 12:22 - 13:50 </p>
                 <a href="Настя.pdf" class="posilanya"> Пoсилання на переїзд</a>
+<button class="buttons-click" onclick="markDone(this)"> 
+    <img src="галочка2.png" class="click-photo">
+</button>
              <!-- тут деталі-->
  <div class="more-details-bus"> 
       <details class="see-more-details"> 

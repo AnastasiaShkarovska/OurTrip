@@ -119,3 +119,39 @@ margin-left: 5px;
     text-decoration: none;
     color: rgb(8, 63, 19);
 }
+.buttons-click{
+    width: 65px;
+    height: 65px;
+    margin-top: 27px;
+    margin-left: 1240px;
+    position: absolute;
+    background-color:rgb(182, 204, 254);
+}
+.click-photo{
+    width: 65px;
+    height: 65px;
+    margin-top: -5x;
+    margin-left: -5px;
+}
+
+.one-choice.done .transport-text,
+.one-choice.done .destination-text,
+.one-choice.done .time-text,
+.one-choice.done .transport-photo,
+.one-choice.done .clock-photo,
+.one-choice.done .house-photo,
+.one-choice.done .nazva,
+.one-choice.done .posilanya {
+  filter: grayscale(1);
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.buttons-click.done .click-photo {
+    filter: invert(37%) sepia(93%) saturate(1352%) hue-rotate(93deg)
+            brightness(90%) contrast(91%);
+}і
+
+.buttons-click.done {
+    background-color: #4CAF50;
+    border-radius: 50%;
+}
